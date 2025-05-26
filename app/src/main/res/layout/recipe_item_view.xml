@@ -13,8 +13,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
-        
 
+        <!-- Recipe title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeItemTitle"
+            android:text="Placeholder recipe title"
+            android:textStyle="bold"
+            />
+        
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
