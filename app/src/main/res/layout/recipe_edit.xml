@@ -87,6 +87,13 @@
             android:textSize="25sp"
             android:padding="10dp"
             />
-        
+
+        <!-- Recipe ingredient recycler view -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditIngredientItemRV"
+            />
+                   
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
