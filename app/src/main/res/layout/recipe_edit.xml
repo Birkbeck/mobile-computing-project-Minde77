@@ -4,30 +4,36 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!-- Recipe edit title label -->
-    <TextView
+    <!-- Recipe title label and input container -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recipeEditTitleLabel"
+        android:id="@+id/recipeEditTitleContainer"
+        android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="Title"
-        android:textStyle="bold"
-        android:textSize="25sp"
-        android:padding="10dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent">
 
-    <!-- Recipe title input -->
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recipeEditeTitleInput"
-        app:layout_constraintTop_toBottomOf="@+id/recipeEditTitleLabel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:hint="Enter recipe title..."
-        android:inputType="textCapWords"
-        />
+        <!-- Recipe edit title label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditTitleLabel"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            />
+
+        <!-- Recipe title input -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditeTitleInput"
+            android:hint="Enter recipe title..."
+            android:inputType="textCapWords"
+            />
+        
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
