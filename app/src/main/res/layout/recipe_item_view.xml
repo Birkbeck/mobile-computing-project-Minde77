@@ -40,6 +40,14 @@
                 android:textStyle="bold"
                 />
 
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/recipeItemViewButton"
+                android:layout_weight="0.5"
+                android:text="View"
+                />
+
         </LinearLayout>
 
 
