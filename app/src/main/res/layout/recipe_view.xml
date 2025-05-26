@@ -18,11 +18,11 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
-    <!-- Recipe category -->
+    <!-- Recipe category title -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recipeCategory"
+        android:id="@+id/recipeCategoryTitle"
         android:text="Category"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -37,15 +37,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@+id/recipeCategory"
+        app:layout_constraintTop_toBottomOf="@+id/recipeCategoryTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- Recipe ingredients -->
+        <!-- Recipe ingredient title -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/recipeIngredients"
+            android:id="@+id/recipeIngredientTitle"
             android:text="Ingredients"
             android:textStyle="bold"
             android:textSize="20sp"
