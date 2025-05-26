@@ -156,7 +156,7 @@
             android:id="@+id/recipeEditSaveRecipeButton"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:text="Add Recipe"
+            android:text="Save Recipe"
             />
 
         <!-- Recipe cancel button -->
