@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Recipe title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeTitle"
+        android:text="Recipe One"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <!-- Recipe category title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeCategoryTitle"
+        android:text="Category"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/recipeTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/recipeCategoryTitle"
+        />
+
+    <!-- Ingredient container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ingredientContainer"
+        app:layout_constraintTop_toBottomOf="@+id/recipeCategoryTitle"
+        app:layout_constraintBottom_toTopOf="@+id/instructionContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Recipe ingredient title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeIngredientTitle"
+            android:text="Ingredients"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            />
+
+        <!-- Ingredient list -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ingredientListRV"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/ingredientContainer"
+        />
+
+    <!-- Instruction container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/instructionContainer"
+        app:layout_constraintTop_toBottomOf="@+id/ingredientContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Recipe instruction title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeInstructionTitle"
+            android:text="Instructions"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            />
+
+        <!-- Recipe instruction text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeInstructionText"
+            android:text="Placeholder instruction text"
+            android:textSize="15sp"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/instructionContainer"
+        />
+
+    <!-- Recipe edit button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/recipeEditButton"
+        android:text="Edit recipe"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
