@@ -17,5 +17,17 @@
         android:textSize="25sp"
         android:padding="10dp"
         />
-    
+
+    <!-- Recipe title input -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeEditeTitleInput"
+        app:layout_constraintTop_toBottomOf="@+id/recipeEditTitleLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="Enter recipe title..."
+        android:inputType="textCapWords"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
