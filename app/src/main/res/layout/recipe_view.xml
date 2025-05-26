@@ -55,10 +55,10 @@
             />
 
         <!-- Ingredient list -->
-        <ListView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/recipeIngredientList"
+            android:id="@+id/ingredientListRV"
             android:padding="10dp"
             />
 
