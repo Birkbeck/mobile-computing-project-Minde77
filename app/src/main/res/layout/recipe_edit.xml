@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Recipe title label and input container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeEditTitleContainer"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Recipe edit title label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditTitleLabel"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            />
+
+        <!-- Recipe title input -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditTitleInput"
+            android:hint="Enter recipe title..."
+            android:inputType="textCapWords"
+            />
+
+    </LinearLayout>
+
+    <!-- Recipe category label and selection dropdown menu container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeEditCategoryContainer"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/recipeEditTitleContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Recipe edit category label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditCategoryLabel"
+            android:text="Category"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            />
+
+        <!-- Recipe category selection dropdown menu -->
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditCategoryDropdownMenu"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <!-- Recipe ingredient label, recycler view and add ingredient button container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeEditIngredientContainer"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/recipeEditCategoryContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Recipe ingredients label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditIngredientLabel"
+            android:text="Ingredients"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            />
+
+        <!-- Recipe ingredient recycler view -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditIngredientItemRV"
+            />
+
+        <!-- Recipe add ingredient button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditAddIngredientButton"
+            android:layout_gravity="center"
+            android:text="Add Ingredient"
+            />
+
+    </LinearLayout>
+
+    <!-- Recipe instructions and instruction text container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeEditInstructionContainer"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/recipeEditIngredientContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Recipe instruction label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditInstructionLabel"
+            android:text="Instructions"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            />
+
+        <!-- Recipe instruction text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditInstructionText"
+            android:text="Placeholder instruction text"
+            android:textSize="15sp"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <!-- Save and cancel recipe button container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeEditButtonContainer"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Recipe save button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditSaveRecipeButton"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Save Recipe"
+            />
+
+        <!-- Recipe cancel button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditCancelRecipeButton"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Cancel recipe"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
