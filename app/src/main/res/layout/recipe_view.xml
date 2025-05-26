@@ -95,4 +95,15 @@
             />
 
     </LinearLayout>
+
+    <!-- Recipe edit button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/instructionContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/recipeEditButton"
+        android:text="Edit recipe"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
