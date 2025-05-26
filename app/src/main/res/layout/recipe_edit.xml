@@ -158,6 +158,15 @@
             android:layout_weight="1"
             android:text="Add Recipe"
             />
-        
+
+        <!-- Recipe cancel button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditCancelRecipeButton"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Cancel recipe"
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
