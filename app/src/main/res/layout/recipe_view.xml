@@ -32,6 +32,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         />
 
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/recipeCategoryTitle"
+        />
+
     <!-- Ingredient container -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -63,6 +71,14 @@
             />
 
     </LinearLayout>
+
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/ingredientContainer"
+        />
 
     <!-- Instruction container -->
     <LinearLayout
@@ -96,6 +112,14 @@
             />
 
     </LinearLayout>
+
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/instructionContainer"
+        />
 
     <!-- Recipe edit button -->
     <Button
