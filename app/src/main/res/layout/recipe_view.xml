@@ -40,6 +40,17 @@
         app:layout_constraintTop_toBottomOf="@+id/recipeCategory"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Recipe ingredients -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeIngredients"
+            android:text="Ingredients"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            />
         
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
