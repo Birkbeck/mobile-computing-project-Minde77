@@ -32,5 +32,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
+
+    <!-- Recipe item recycler view -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dashboardRecipeItemRV"
+        app:layout_constraintTop_toBottomOf="@+id/dashboardCategoryDropdownMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
+        />
     
 </androidx.constraintlayout.widget.ConstraintLayout>
