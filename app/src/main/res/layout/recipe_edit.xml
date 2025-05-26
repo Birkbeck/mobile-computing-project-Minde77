@@ -33,6 +33,19 @@
             android:hint="Enter recipe title..."
             android:inputType="textCapWords"
             />
+
+    </LinearLayout>
+
+    <!-- Recipe category label and selection dropdown menu container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeEditCategoryContainer"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/recipeEditTitleContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
         
     </LinearLayout>
 
