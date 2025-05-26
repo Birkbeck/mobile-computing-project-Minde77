@@ -127,5 +127,15 @@
             android:padding="10dp"
             />
 
+        <!-- Recipe instruction text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditInstructionText"
+            android:text="Placeholder instruction text"
+            android:textSize="15sp"
+            android:padding="10dp"
+            />
+        
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
