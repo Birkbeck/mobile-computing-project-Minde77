@@ -46,6 +46,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <!-- Recipe edit category label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditCategoryLabel"
+            android:text="Category"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            />
         
     </LinearLayout>
 
