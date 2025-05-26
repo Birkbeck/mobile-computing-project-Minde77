@@ -22,4 +22,15 @@
         app:layout_constraintStart_toStartOf="parent"
         />
 
+    <!-- Dashboard Spinner category dropdown menu -->
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dashboardCategoryDropdownMenu"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/dashboardTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
