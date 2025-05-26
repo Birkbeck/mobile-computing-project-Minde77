@@ -40,6 +40,7 @@
                 android:textStyle="bold"
                 />
 
+            <!-- Recipe view button -->
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -48,6 +49,7 @@
                 android:text="View"
                 />
 
+            <!-- Recipe edit button -->
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
