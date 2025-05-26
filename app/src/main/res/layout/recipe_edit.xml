@@ -94,6 +94,15 @@
             android:layout_height="wrap_content"
             android:id="@+id/recipeEditIngredientItemRV"
             />
-                   
+
+        <!-- Recipe add ingredient button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditeAddIngredientButton"
+            android:layout_gravity="center"
+            android:text="Add Ingredient"
+            />
+        
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
