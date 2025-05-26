@@ -29,7 +29,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/recipeEditeTitleInput"
+            android:id="@+id/recipeEditTitleInput"
             android:hint="Enter recipe title..."
             android:inputType="textCapWords"
             />
@@ -99,7 +99,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/recipeEditeAddIngredientButton"
+            android:id="@+id/recipeEditAddIngredientButton"
             android:layout_gravity="center"
             android:text="Add Ingredient"
             />
