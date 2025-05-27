@@ -132,4 +132,15 @@
         android:id="@+id/recipeEditButton"
         android:text="Edit recipe"
         />
+
+    <!-- Recipe go back button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeBackButton"
+        android:text="Go back"
+        app:layout_constraintTop_toBottomOf="@id/recipeEditButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
