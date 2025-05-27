@@ -138,6 +138,7 @@
             android:layout_weight="1"
             android:id="@+id/recipeEditButton"
             android:text="Edit recipe"
+            android:layout_margin="10dp"
             />
 
         <!-- Recipe go back button -->
@@ -147,6 +148,7 @@
             android:layout_weight="1"
             android:id="@+id/recipeBackButton"
             android:text="Go back"
+            android:layout_margin="10dp"
             />
     </LinearLayout>
 
