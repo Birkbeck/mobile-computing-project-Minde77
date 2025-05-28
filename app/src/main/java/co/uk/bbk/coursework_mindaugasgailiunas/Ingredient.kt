@@ -6,4 +6,6 @@ package co.uk.bbk.coursework_mindaugasgailiunas
  * @author Mindaugas Gailiunas
  * @property text an Ingredient description
  */
-data class Ingredient()
+data class Ingredient(
+    val text: String
+)
