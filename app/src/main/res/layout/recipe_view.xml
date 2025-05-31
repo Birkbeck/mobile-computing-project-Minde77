@@ -150,6 +150,16 @@
             android:text="Back to Dashboard"
             android:layout_margin="10dp"
             />
+
+        <!-- Recipe delete button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/recipeDeleteButton"
+            android:text="Delete recipe"
+            android:layout_margin="10dp"
+            />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
