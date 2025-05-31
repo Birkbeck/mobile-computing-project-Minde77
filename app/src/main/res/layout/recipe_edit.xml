@@ -157,6 +157,10 @@
             android:text="Placeholder instruction text"
             android:textSize="15sp"
             android:padding="10dp"
+            android:autofillHints="none"
+            android:inputType="textMultiLine"
+            android:minLines="14"
+            android:maxLines="200"
             />
 
     </LinearLayout>
