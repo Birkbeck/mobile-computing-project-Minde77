@@ -96,23 +96,35 @@
             android:id="@+id/recipeEditIngredientItemRV"
             />
 
-        <!-- Recipe add ingredient button -->
-        <Button
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/recipeEditAddIngredientButton"
             android:layout_gravity="center"
-            android:text="@string/add_ingredient_btn"
-            />
+            style="?android:attr/buttonBarButtonStyle">
 
-        <!-- Recipe remove ingredient button -->
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/recipeEditDeleteIngredientButton"
-            android:layout_gravity="center"
-            android:text="@string/remove_ingredient_btn"
-            />
+            <!-- Recipe add ingredient button -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recipeEditAddIngredientButton"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/add_ingredient_btn"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+
+            <!-- Recipe remove ingredient button -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recipeEditDeleteIngredientButton"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/remove_ingredient_btn"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+
+        </LinearLayout>
 
     </LinearLayout>
 
