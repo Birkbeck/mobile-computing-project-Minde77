@@ -1,13 +1,16 @@
 package co.uk.bbk.coursework_mindaugasgailiunas
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import co.uk.bbk.coursework_mindaugasgailiunas.databinding.ActivityMainBinding
 
+/**
+ * Culinary Companion main activity class.
+ * It acts as an entryway to the app and as a dashboard to display recipes
+ *
+ * @author Mindaugas Gailiunas
+ */
 class MainActivity : AppCompatActivity() {
 
     // Bind all activities
