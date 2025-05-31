@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/recipeEditTitleLabel"
-            android:text="Title"
+            android:text="@string/recipe_title_label"
             android:textStyle="bold"
             android:textSize="25sp"
             android:padding="10dp"
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/recipeEditCategoryLabel"
-            android:text="Category"
+            android:text="@string/category_label"
             android:textStyle="bold"
             android:textSize="25sp"
             android:padding="10dp"
@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/recipeEditIngredientLabel"
-            android:text="Ingredients"
+            android:text="@string/ingredients_label"
             android:textStyle="bold"
             android:textSize="25sp"
             android:padding="10dp"
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/recipeEditAddIngredientButton"
             android:layout_gravity="center"
-            android:text="Add Ingredient"
+            android:text="@string/add_ingredient_btn"
             />
 
     </LinearLayout>
@@ -121,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/recipeEditInstructionLabel"
-            android:text="Instructions"
+            android:text="@string/ingredients_label"
             android:textStyle="bold"
             android:textSize="25sp"
             android:padding="10dp"
@@ -156,7 +156,7 @@
             android:id="@+id/recipeEditSaveRecipeButton"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:text="Save Recipe"
+            android:text="@string/save_recipe_btn"
             />
 
         <!-- Recipe cancel button -->
@@ -166,7 +166,7 @@
             android:id="@+id/recipeEditCancelRecipeButton"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:text="Cancel recipe"
+            android:text="@string/cancel_recipe_btn"
             />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
