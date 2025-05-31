@@ -5,6 +5,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.LinearLayoutManager
 import co.uk.bbk.coursework_mindaugasgailiunas.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,5 +20,7 @@ class MainActivity : AppCompatActivity() {
         // Bind all activities to view
         val view = binding.root
         setContentView(view)
+
+        binding.dashboardRecipeItemRV.layoutManager = LinearLayoutManager(this)
     }
 }
