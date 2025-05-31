@@ -11,6 +11,7 @@
     <string name="edit_btn">Edit</string>
     <string name="add_recipe_btn">Add new recipe</string>
     <string name="add_ingredient_btn">Add ingredient</string>
+    <string name="remove_ingredient_btn">Remove ingredient</string>
     <string name="back_btn">Back to Dashboard</string>
     <string name="save_recipe_btn">Save recipe</string>
     <string name="cancel_recipe_btn">Cancel recipe</string>
