@@ -24,4 +24,15 @@ class RecipeEditActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view) // Display bound elements on the screen
     }
+
+    /*
+        TODO:
+        - Add logic to load recipe title input field
+        - Add Spinner adapter and logic to handle category dropdown menu
+        - Add RecyclerView adapter and logic to load Ingredient item input fields
+        - Add logic to load add ingredient button that adds Ingredient input field
+        - Add logic and instruction text input
+        - Add logic to save current recipe
+        - Add Intent to load MainActivity after clicking cancel button if new recipe or RecipeViewActivity if editing existing recipe
+    */
 }
