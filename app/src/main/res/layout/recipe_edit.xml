@@ -148,7 +148,8 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        style="?android:attr/buttonBarButtonStyle">
 
         <!-- Recipe save button -->
         <Button
@@ -158,6 +159,7 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:text="@string/save_recipe_btn"
+            style="?android:attr/buttonBarButtonStyle"
             />
 
         <!-- Recipe cancel button -->
@@ -168,6 +170,7 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:text="@string/cancel_recipe_btn"
+            style="?android:attr/buttonBarButtonStyle"
             />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
