@@ -105,6 +105,15 @@
             android:text="@string/add_ingredient_btn"
             />
 
+        <!-- Recipe remove ingredient button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditDeleteIngredientButton"
+            android:layout_gravity="center"
+            android:text="@string/remove_ingredient_btn"
+            />
+
     </LinearLayout>
 
     <!-- Recipe instructions and instruction text container -->
