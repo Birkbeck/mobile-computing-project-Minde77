@@ -130,7 +130,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:orientation="horizontal"
-        style="?android:attr/buttonBarButtonStyle">
+        style="?android:attr/buttonBarButtonStyle"
+        android:padding="10dp">
 
         <!-- Recipe edit button -->
         <Button
@@ -139,7 +140,6 @@
             android:layout_weight="1"
             android:id="@+id/recipeEditButton"
             android:text="@string/edit_recipe_btn"
-            android:layout_margin="10dp"
             style="?android:attr/buttonBarButtonStyle"
             />
 
@@ -150,7 +150,6 @@
             android:layout_weight="1"
             android:id="@+id/recipeBackButton"
             android:text="@string/back_btn"
-            android:layout_margin="10dp"
             style="?android:attr/buttonBarButtonStyle"
             />
 
@@ -161,7 +160,6 @@
             android:layout_weight="1"
             android:id="@+id/recipeDeleteButton"
             android:text="@string/delete_recipe_btn"
-            android:layout_margin="10dp"
             style="?android:attr/buttonBarButtonStyle"
             />
     </LinearLayout>
