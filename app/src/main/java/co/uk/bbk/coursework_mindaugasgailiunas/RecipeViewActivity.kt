@@ -23,4 +23,15 @@ class RecipeViewActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view) // Display bound elements on the screen
     }
+
+    /*
+        TODO:
+        - Add logic to load recipe title
+        - Add logic to load recipe category
+        - Add RecyclerView adapter and logic to load a list of Recipe Ingredient list items
+        - Add logic to load recipe instruction text
+        - Add Intent to load RecipeEditActivity after clicking edit recipe button at the bottom
+        - Add Intent to load MainActivity after clicking go back to dashboard button at the bottom
+        - Add logic to delete current recipe after clicking delete recipe button
+         */
 }
