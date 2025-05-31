@@ -150,7 +150,7 @@
             />
 
         <!-- Recipe instruction text -->
-        <TextView
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/recipeEditInstructionText"
