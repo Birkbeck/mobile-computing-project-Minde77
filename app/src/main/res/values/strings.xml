@@ -7,6 +7,7 @@
     <string name="instructions_label">Instructions</string>
     <string name="enter_recipe_title_hint">Enter recipe title</string>
     <string name="enter_ingredient_hint">Enter ingredient</string>
+    <string name="enter_instructions_hint">Enter instructions</string>
     <string name="view_btn">View</string>
     <string name="edit_btn">Edit</string>
     <string name="add_recipe_btn">Add new recipe</string>
