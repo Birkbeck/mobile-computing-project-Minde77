@@ -129,7 +129,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        style="?android:attr/buttonBarButtonStyle">
 
         <!-- Recipe edit button -->
         <Button
@@ -139,6 +140,7 @@
             android:id="@+id/recipeEditButton"
             android:text="@string/edit_recipe_btn"
             android:layout_margin="10dp"
+            style="?android:attr/buttonBarButtonStyle"
             />
 
         <!-- Recipe go back button -->
@@ -149,6 +151,7 @@
             android:id="@+id/recipeBackButton"
             android:text="@string/back_btn"
             android:layout_margin="10dp"
+            style="?android:attr/buttonBarButtonStyle"
             />
 
         <!-- Recipe delete button -->
@@ -159,6 +162,7 @@
             android:id="@+id/recipeDeleteButton"
             android:text="@string/delete_recipe_btn"
             android:layout_margin="10dp"
+            style="?android:attr/buttonBarButtonStyle"
             />
     </LinearLayout>
 
