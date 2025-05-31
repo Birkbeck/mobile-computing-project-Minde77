@@ -11,4 +11,5 @@
     <string name="save_recipe_btn">Save recipe</string>
     <string name="cancel_recipe_btn">Cancel recipe</string>
     <string name="edit_recipe_btn">Edit recipe</string>
+    <string name="delete_recipe_btn">Delete recipe</string>
 </resources>
