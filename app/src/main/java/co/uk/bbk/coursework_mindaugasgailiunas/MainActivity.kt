@@ -1,5 +1,6 @@
 package co.uk.bbk.coursework_mindaugasgailiunas
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -25,5 +26,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.dashboardRecipeItemRV.layoutManager = LinearLayoutManager(this)
+
+        /*
+        TODO:
+        - Add RecyclerView adapter and logic to load a list of Recipe items
+        - Add Spinner adapter and logic to load a dropdown list of category elements
+        - Add Intent to load RecipeViewActivity after clicking View button on Recipe item
+        - Add Intent to load RecipeEditActivity after clicking Edit on Recipe Item and add new recipe button at the bottom of dashboard
+         */
     }
 }
