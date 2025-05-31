@@ -32,6 +32,7 @@
             android:id="@+id/recipeEditTitleInput"
             android:hint="Enter recipe title..."
             android:inputType="textCapWords"
+            android:autofillHints="none"
             />
 
     </LinearLayout>
