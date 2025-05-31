@@ -47,7 +47,7 @@
                 android:id="@+id/recipeItemViewButton"
                 android:layout_weight="0.5"
                 android:layout_margin="10dp"
-                android:text="View"
+                android:text="@string/view_btn"
                 />
 
             <!-- Recipe edit button -->
@@ -57,7 +57,7 @@
                 android:id="@+id/recipeItemEditButton"
                 android:layout_weight="0.5"
                 android:layout_margin="10dp"
-                android:text="Edit"
+                android:text="@string/edit_btn"
                 />
             
         </LinearLayout>
