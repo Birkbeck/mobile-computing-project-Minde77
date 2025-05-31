@@ -5,6 +5,7 @@
     <string name="category_label">Category</string>
     <string name="ingredients_label">Ingredients</string>
     <string name="instructions_label">Instructions</string>
+    <string name="enter_recipe_title_hint">Enter recipe title</string>
     <string name="add_recipe_btn">Add new recipe</string>
     <string name="add_ingredient_btn">Add ingredient</string>
     <string name="back_btn">Back to Dashboard</string>
