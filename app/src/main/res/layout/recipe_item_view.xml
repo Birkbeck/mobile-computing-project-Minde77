@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/recipeItemTitle"
             android:text="Placeholder recipe title"
+            android:layout_margin="10dp"
             android:textStyle="bold"
             />
 
@@ -34,6 +35,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/recipeItemCategory"
                 android:layout_weight="1"
+                android:layout_margin="10dp"
                 android:text="Placeholder category"
                 android:textStyle="bold"
                 />
@@ -44,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/recipeItemViewButton"
                 android:layout_weight="0.5"
+                android:layout_margin="10dp"
                 android:text="View"
                 />
 
@@ -53,6 +56,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/recipeItemEditButton"
                 android:layout_weight="0.5"
+                android:layout_margin="10dp"
                 android:text="Edit"
                 />
             
