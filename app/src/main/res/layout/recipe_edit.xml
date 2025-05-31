@@ -154,7 +154,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/recipeEditInstructionText"
-            android:hint="@string/enter_instruction_hint"
+            android:hint="@string/enter_instructions_hint"
             android:textSize="15sp"
             android:padding="10dp"
             android:autofillHints="none"
